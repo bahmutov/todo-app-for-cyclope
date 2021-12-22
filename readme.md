@@ -1,4 +1,5 @@
-# todo-app-for-cyclope
+# todo-app-for-cyclope [![CircleCI](https://circleci.com/gh/bahmutov/todo-app-for-cyclope/tree/main.svg?style=svg)](https://circleci.com/gh/bahmutov/todo-app-for-cyclope/tree/main)
+
 > This is a single vanilla JavaScript TodoApp to showcase [cyclope plugin](https://github.com/bahmutov/cyclope)
 
 ![Deployed application](./images/deployed.png)
