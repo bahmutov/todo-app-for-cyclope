@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/bahmutov/todo-app-for-cyclope#readme",
   "devDependencies": {
-    "cyclope": "^2.0.1",
+    "cyclope": "^2.0.2",
     "cypress": "^9.2.0",
     "prettier": "^2.5.1",
     "serve": "^13.0.2",
