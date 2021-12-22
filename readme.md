@@ -5,3 +5,5 @@
 ![Deployed application](./images/deployed.png)
 
 This is a single vanilla js TodoApp used for testing. It was taken from [https://github.com/hariramjp777/frontend-todo-app/](https://github.com/hariramjp777/frontend-todo-app/). Deployed to [https://todo-app-for-cyclope.netlify.app/](https://todo-app-for-cyclope.netlify.app/).
+
+Read the blog post [Save The Page On Test Failure](https://glebbahmutov.com/blog/cyclope-intro/)
