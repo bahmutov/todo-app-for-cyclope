@@ -21,7 +21,7 @@ it('adds and removes todos', () => {
   cy.get('#items-left').should('have.text', '2')
   cy.get('#completed').click()
   cy.get('#completed').should('have.class', 'on')
-  cy.get('[data-cy=todo]')
+  cy.get('[data-cy=todo]:visible')
     .should('have.length', 1)
     .contains('find the secret')
 })
