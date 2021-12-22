@@ -11,6 +11,8 @@ workflows:
           config: 'baseUrl=http://localhost:3777'
           # no need to store the workspace, as there are no jobs after this one
           no-workspace: true
+          # store cypress/screenshots and cypress/videos
+          store_artifacts: true
           # store the "cypress/failed" folder where the cyclope plugin
           # might store the full HTML page if a test fails
           post-steps:
