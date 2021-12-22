@@ -1,4 +1,5 @@
 {
   "fixturesFolder": false,
-  "baseUrl": "https://todo-app-for-cyclope.netlify.app/"
+  "baseUrl": "https://todo-app-for-cyclope.netlify.app/",
+  "experimentalStudio": true
 }
