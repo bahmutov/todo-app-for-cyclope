@@ -4,7 +4,10 @@
   "description": "> This is a single vanilla JavaScript TodoApp to showcase [cyclope plugin](https://github.com/bahmutov/cyclope)",
   "private": true,
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "start": "serve -p 3777 public",
+    "dev": "start-test 3777 cy:open",
+    "cy:open": "cypress open --config baseUrl=http://localhost:3777"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,8 @@
   "devDependencies": {
     "cyclope": "^2.0.1",
     "cypress": "^9.2.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "serve": "^13.0.2",
+    "start-server-and-test": "^1.14.0"
   }
 }
