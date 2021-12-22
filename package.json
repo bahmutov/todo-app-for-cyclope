@@ -1,0 +1,28 @@
+{
+  "name": "todo-app-for-cyclope",
+  "version": "1.0.0",
+  "description": "> This is a single vanilla JavaScript TodoApp to showcase [cyclope plugin](https://github.com/bahmutov/cyclope)",
+  "private": true,
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/todo-app-for-cyclope.git"
+  },
+  "keywords": [
+    "cypress-example",
+    "cyclope-example"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/todo-app-for-cyclope/issues"
+  },
+  "homepage": "https://github.com/bahmutov/todo-app-for-cyclope#readme",
+  "devDependencies": {
+    "cyclope": "^2.0.1",
+    "cypress": "^9.2.0",
+    "prettier": "^2.5.1"
+  }
+}
